@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+     "env": {
+         "MONGO_URL": "mongodb://geia2017:Gr33nfutur3@ds119250.mlab.com:19250/geia2017"
+     }
+   }
+}
