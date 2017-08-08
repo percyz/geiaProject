@@ -1,0 +1,259 @@
+/**Leaderboard**/
+
+.sepimg {
+  display: inline-block;
+  width: 15%;
+  margin-right: 10px;
+}
+
+.bac-img-gre{
+    height: 30px;
+    color: black;
+    border-top:4px solid #8AC440;
+    border-right:4px solid #8AC440;
+} 
+
+#bac-img-gre{
+    float: right;
+    margin-right:14px;
+    background-image: url("Champion-Large-Flags.png");
+    text-align: right;
+    color: white;
+    height: 26px;
+    max-width: 130px;
+    width: 25%;
+    background-repeat: no-repeat;
+}
+
+.bac-img-blu{
+    height: 30px;
+    color: black;
+    border-top:4px solid #39B1CB ;
+    border-right:4px solid #39B1CB ;
+}
+
+#bac-img-blu{
+    float: right;
+    margin-right:14px;
+    background-image: url("Validated-Large-Flags.png");
+    text-align: right;
+    color: white;
+    height: 26px;
+    max-width: 130px;
+    width: 25%;
+    background-repeat: no-repeat;
+}
+
+.bac-img-bla{
+    height: 30px;
+    color: black;
+    border-top:4px solid #404041 ;
+    border-right:4px solid #404041 ;
+}
+
+#bac-img-bla{
+    float: right;
+    margin-right:14px;
+    background-image: url("Self-Assessed-Large--Flags.png");
+    text-align: center;
+    color: white;
+    height: 26px;
+    max-width: 130px;
+    width: 25%;
+    background-repeat: no-repeat;
+}
+
+#lea-loc-ind{
+    font-size: 14px;
+    width: 30%;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+#lea-loc-ind img{
+    height: 15px;
+    width: 15px;
+}
+
+#checkrest{
+    margin-top: -15px;
+    margin-left: 75px;  
+} 
+
+@media (max-width: 1100px) {
+
+  #organisationdRow {
+    height: 130px;
+  }
+
+  #lea-loc-ind {
+    margin-top: 40px;
+    margin-left: -230px; 
+    font-size: 12px;
+    width: auto;
+  }
+
+  #rank,#orgs {
+    width: 50px;
+    display: inline-block;
+  }
+  .sepimg {
+    width: 80px;
+    display: inline-block;
+  }
+  #topnav {
+    max-width: 490px;
+    display: inline-block;
+    /*/float: right;*/
+  }
+
+  #checkrest{
+    margin-top: -15px;
+    margin-left: -55px;  
+  } 
+  /*  
+  #lea-loc-ind{
+    display: inline-block;
+  }
+*/
+  .bac-img-gre, .bac-img-blu, .bac-img-bla{
+    width: 80%;
+    float: right;
+  }
+  /*#bac-img-gre, #bac-img-blu, #bac-img-bla {
+    margin-top: -141px;
+  }*/
+  .info {
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .lea {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 990px) {
+
+  #lea-loc-ind {
+    margin-top: -65px;
+    margin-left: 100px; 
+    font-size: 12px;
+      width: auto;
+  }
+
+  #scoreSize {
+    font-size: 10px;
+  }
+
+  #organisationdRow {
+    height: 150px;
+  }
+
+  #checkrest{
+    margin-top: -15px;
+    margin-left: -30px;  
+  } 
+
+  .favimg, #checkimg {
+    margin-top: 0;
+  }
+
+  #topnav {
+    max-width: 490px;
+    display: inline-block;
+    /*float: right;*/
+  }
+
+  .sepimg {
+  max-width: 80px;
+  display: inline-block;
+  /*width: 20%;*/
+  margin-right: 10px;
+  }
+
+}
+
+@media (max-width: 400px) {
+    
+    #orgs {
+        margin-left: 50px;
+    }
+
+  #lea-loc-ind {
+    margin-top: -55px;
+    margin-left: 85px;
+    padding: 0;
+    font-size: 12px;
+    width: 150px;
+      height: 45px;
+  }
+    
+    #lea-loc-ind .row .col-md-10 {
+        margin-left: -20px; 
+    }
+    
+    #lea-loc-ind .row .col-md-1 img {
+        margin: 10px
+
+    }
+    
+    #renderRow{
+        height: auto; 
+    }
+
+  #renderValid {
+     width: 30px;   
+  }
+
+ #renderValid img{
+    height: 15px;
+    width: 15px;
+}
+    
+  #renderChamp {
+      width: 100px;  
+  }
+    
+#renderChamp img{
+    height: 15px;
+    width: 15px;
+}
+    
+#renderLogoz {
+    height: 55px;
+    width: 55px;
+    }
+
+  #organisationdRow {
+    height: 150px;
+  }
+
+  #scoreSize {
+    font-size: 10px;
+  }
+
+  #checkrest{
+    margin-top: -15px;
+    margin-left: 25px;  
+  } 
+
+  .leadlogo img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+
+  #topnav {
+    max-width: 300px;
+    display: inline-block;
+    float: right;
+  }
+
+  .sepimg {
+  max-width: 60px;
+  display: inline-block;
+  width: 20%;
+  margin-right: 10px;
+  }
+
+}

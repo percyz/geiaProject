@@ -1,0 +1,54 @@
+.form-group-1 input[type="checkbox"] {
+    display: none;
+}
+
+.form-group-1 input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+}
+
+.form-group-1 input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group-1 input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;
+}
+
+.form-group-1 input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+
+.form-group-1 input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;
+}
+
+.form-group-2 input[type="checkbox"] {
+    display: none;
+}
+
+.form-group-2 input[type="checkbox"] + .btn-group2 > label span {
+    width: 20px;
+}
+
+.form-group-2 input[type="checkbox"] + .btn-group2 > label span:first-child {
+    display: none;
+}
+.form-group-2 input[type="checkbox"] + .btn-group2 > label span:last-child {
+    display: inline-block;
+}
+
+.form-group-2 input[type="checkbox"]:checked + .btn-group2 > label span:first-child {
+    display: inline-block;
+}
+
+.form-group-2 input[type="checkbox"]:checked + .btn-group2 > label span:last-child {
+    display: none;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.inputs {
+    max-width: 50%;
+    display: table;
+}

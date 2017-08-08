@@ -1,0 +1,157 @@
+body, html{
+    height: 100%;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+	margin-top: 180px;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+/*
+.form-control {
+    min-width: 280px;
+}*/
+
+textarea {
+    min-height: 100px;
+}
+
+input#name.form-control,
+input#email.form-control,
+input#passwords.form-control,
+input#confirm_passwords.form-control,
+input#phone.form-control,
+input#redoemail.form-control.
+input#fname.form-control,
+input#Lname.form-control{
+
+    border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+
+}
+textarea#comment.form-control
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input,textarea.form-control,
+input::-webkit-input-placeholder {
+
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #e0e0d1;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+}
+
+
+.signUp {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 10px 40px;
+    margin-top: 10px;
+    max-width: 330px;
+}
+
+.main-center{
+ 	margin-top: 0px;
+ 	margin: 0 auto;
+ 	max-width: 500px;
+    padding: 20px 40px;
+
+}
+
+a.btn.btn-success.btn-lg {
+	height: 10px;
+	font-size: 15px;
+}
+
+.registerButton {
+	text-align: right;
+    display: inline-block;
+}
+
+
+
+span.formValidation{
+    color:  red;
+}
+
+#updates {
+  display: inline;
+  color: gray;
+}
+
+.checkboxFive {
+    margin-left: -15px;
+  width: 30px;
+	position: relative;
+  display: inline-block;
+}
+
+.checkboxFive label {
+	cursor: pointer;
+	position: absolute;
+	width: 30px;
+	height: 25px;
+	top: 0;
+  	left: 0;
+	background: #eee;
+	border:1px solid #ddd;
+}
+
+.checkboxFive label:after {
+	opacity: 0.2;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 6px;
+	left: 7px;
+    border: 3px solid lime;
+	border-top: none;
+	border-right: none;
+
+	transform: rotate(-45deg);
+}
+
+.checkboxFive label:hover::after {
+	opacity: 0.5;
+}
+
+/**
+ * Checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+
+#registerNav {
+    margin-top: -5px;
+    text-align: center;
+}
+
+#registerNav ul {
+    width: 80%;
+    margin-left: 230px;
+    display:inline-table;
+}
+
+#registerNav ul li {
+    display:inline;
+}

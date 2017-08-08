@@ -1,0 +1,10 @@
+#nav .active, #navTag1 {
+    width: 50%;
+    max-width: 300px;
+}
+
+@media(max-width: 990px){
+    #dashimg{
+        text-align: center;
+    }
+}

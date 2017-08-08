@@ -1,0 +1,44 @@
+
+
+#logoName {
+    margin-left: 100px;
+    margin-top: -27px;
+    width: 150px;
+}
+
+
+.container-fluid {
+  background-color: black;
+}
+
+.container-fluid {
+    border-bottom-style: ridge;
+    border-bottom: 3px solid #8AC440;
+}
+
+
+.dropdown-menu {
+    background-color: #333;
+}
+
+.dropdown-menu li a{
+    color: white;
+}
+
+#mountimg {
+  width: 100%;
+  max-height: 200px;
+  position: absolute;
+  margin-top: -20px;
+  left: 0;
+  border-bottom-style: ridge;
+  border-bottom: 3px solid #8AC440;
+}
+/**
+.dropdown-menu li:hover  {
+    text-decoration: none;
+}
+*/
+.divider {
+    color: black;
+}

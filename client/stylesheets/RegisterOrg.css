@@ -1,0 +1,47 @@
+.days select {
+    width: 70px;
+    margin: 0 3px;
+    float: none;
+}
+
+.days {
+    overflow: auto;
+}
+
+.days:first-child label {
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.days:first-child label:nth-child(1) {
+    width: 130px;
+}
+
+span.orgError {
+    color: red;
+}
+
+span.contactusError {
+    color: red;
+}
+
+.newregnav {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.newregnavimg {
+    width: 20%;
+    display: inline-block;
+}
+
+span.orgSuccess{
+    color: #8AC440;
+}
+
+.orgtext {
+  max-width: 700px;
+  margin: 0 auto;
+}

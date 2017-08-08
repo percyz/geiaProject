@@ -1,3 +1,18 @@
+GEIA LEADERBOARD:
+
+This repository includes the basic structure of Geia website project and the source code of all components of Geia leaderboard which is like the screenshot shown below. 
+You can find the main page at '/imports/ui/pages/leaderboard.jsx' and several relative components at '/imports/ui/component/Leaderboard'.
+
+![leaderboard](https://user-images.githubusercontent.com/24515815/29054470-9040d46e-7c4a-11e7-8602-7b43ddb93537.PNG)
+
+The leaderboard display and rank the organisations according to the Geia score, which helps customers easily identify what organisation they should give their loyalty. It included four main components, searchbox, organisationList, organisationItem and pagination respectively.
+
+    -Searchbox: Users could search organisation name direactly. They could filter the organisaiton list through organisation loaction and industry as well.
+
+    -OrganisationList: The complete list of organisaitons which is validated by Geia, it is dynamical updated by searchbox.
+
+    -OrganisationItem: The single organisaiton item which including organisation name, location, industry, score, status, logo.
+
 CLIENT FOLDER:
   -Has Basic imports e.g. (Bootstrap/JQuery)
   -Has StyleSheets folder which contains CSS for a majority of the specified JSX files.

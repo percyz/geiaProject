@@ -1,0 +1,52 @@
+.instruction p {
+  display: inline-block;
+}
+
+.instruction #putID {
+  margin-right: 140px;
+}
+
+.instruction #putB {
+    margin-left: 100px;
+}
+
+.instruction #putcurscore {
+  margin-left: 30px;
+}
+
+.instruction #putnewscore {
+  margin-left: 40px;
+}
+
+.instruction #putstars {
+  margin-left: 20px;
+}
+
+#orgvalidated, #orgstate, #orgauthstatus, #orgstars {
+  width: 100px;
+}
+
+.updateorg{
+  display: inline-block;
+}
+
+.updateListing{
+  display: inline-block;
+}
+
+.updateAssess{
+  display: inline-block;
+}
+
+.usertext{
+    width: 200px;
+    display: inline-block;
+}
+
+.userspan {
+    margin-left: 100px;
+}
+
+#putrewards {
+  margin-left: 140px;
+}

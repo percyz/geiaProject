@@ -1,0 +1,16 @@
+.assessmentimg{
+  margin-left: 150px;
+}
+
+
+@media (max-width:1000px){
+  .assessmentimg{
+      margin: 0;
+  }
+}
+
+@media (max-width:420px){
+    .assessmentimg{
+        display: none;
+    }
+}
